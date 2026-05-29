@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://la-belle-poule-virid.vercel.app/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/projet/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/recherche-terrain/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/plan-3-ans/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/systeme-verger/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/systeme-eau/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/securite/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/vente-directe/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/agroforesterie/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/polyelevage/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/permaculture/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/polyculture/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/dossier-projet/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/mairies-chambre-agriculture/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/comment-aider/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/contact/</loc></url>
-  <url><loc>https://la-belle-poule-virid.vercel.app/mentions-legales/</loc></url>
-</urlset>
+import type { MetadataRoute } from "next";
+import { absoluteUrl } from "../lib/seo";
+
+export const dynamic = "force-static";
+
+const routes = [
+  "/",
+  "/projet",
+  "/recherche-terrain",
+  "/plan-3-ans",
+  "/systeme-verger",
+  "/systeme-eau",
+  "/securite",
+  "/vente-directe",
+  "/agroforesterie",
+  "/polyelevage",
+  "/permaculture",
+  "/polyculture",
+  "/dossier-projet",
+  "/mairies-chambre-agriculture",
+  "/comment-aider",
+  "/contact",
+  "/mentions-legales",
+];
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return routes.map((route) => ({
+    url: absoluteUrl(route),
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: route === "/" ? 1 : 0.7,
+  }));
+}
