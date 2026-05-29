@@ -1,6 +1,4 @@
 import type { MetadataRoute } from "next";
-
-export const dynamic = "force-static";
 import { absoluteUrl } from "../lib/seo";
 
 const routes = [
