@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: siteName,
   description: siteDescription,
   applicationName: siteName,
+  verification: {
+    google: "fOpG6P1Gkhf4c4zeXOqlsIcr_jKT_AulEDR6ApIonJE",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
