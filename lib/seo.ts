@@ -37,7 +37,7 @@ export function buildPageMetadata({ title, description, path, keywords = [] }: P
     description,
     keywords,
     alternates: {
-      canonical: canonicalPath,
+      canonical: canonicalUrl,
     },
     openGraph: {
       title,
