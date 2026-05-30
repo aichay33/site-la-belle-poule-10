@@ -10,7 +10,7 @@ type PageShellProps = {
 };
 
 const promises = [
-  { label: "Ouverture prévue le 01/05/2029", icon: <LeafIcon className="h-5 w-5" /> },
+  { label: "Ouverture prévue le 05/2029", icon: <LeafIcon className="h-5 w-5" /> },
   { label: "Terrain agricole plat 4 ha", icon: <LocationIcon className="h-5 w-5" /> },
   { label: "Plein air • Agroforesterie", icon: <PeopleIcon className="h-5 w-5" /> },
 ];
@@ -55,7 +55,7 @@ export default function PageShell({ eyebrow, title, intro, children }: PageShell
           <div>
             <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-white/80">Comment aider le projet</span>
             <h2 className="mt-4 font-display text-3xl leading-tight md:text-4xl">Vous connaissez un terrain agricole plat avec accès voiture et eau ?</h2>
-            <p className="mt-4 max-w-2xl text-base leading-8 text-white/80">La Belle Poule recherche en Gironde un terrain agricole uniquement, plat, d’environ 4 hectares, avec accès voiture et eau, pour préparer l’exploitation avant l’ouverture prévue le 01/05/2029.</p>
+            <p className="mt-4 max-w-2xl text-base leading-8 text-white/80">La Belle Poule recherche en Gironde un terrain agricole uniquement, plat, d’environ 4 hectares, avec accès voiture et eau, pour préparer l’exploitation avant l’ouverture prévue le 05/2029.</p>
           </div>
           <div className="grid gap-3">
             <Link href="/recherche-terrain" className="inline-flex items-center justify-center gap-3 rounded-2xl bg-white px-6 py-4 text-center font-bold text-green-deep transition hover:bg-cream-soft">

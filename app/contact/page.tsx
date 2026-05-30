@@ -13,7 +13,7 @@ export default function ContactPage() {
     <PageShell
       eyebrow="Contact"
       title="Contacter La Belle Poule"
-      intro="Vous pouvez me contacter pour proposer un terrain, transmettre une mise en relation, proposer du matériel de récupération ou poser une question sur le projet. La ferme est en préparation et l’ouverture est prévue le 01/05/2029."
+      intro="Vous pouvez me contacter pour proposer un terrain, transmettre une mise en relation, proposer du matériel de récupération ou poser une question sur le projet. La ferme est en préparation et l’ouverture est prévue le 05/2029."
     >
       <div className="grid gap-10 text-text-mid md:grid-cols-[0.95fr_1.05fr]">
         <section>

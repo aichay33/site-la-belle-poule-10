@@ -14,8 +14,8 @@ export default function AgroforesteriePage() {
       <div className="grid gap-6 text-text-mid">
         <h2 className="font-display text-3xl text-green-deep">Le rôle des arbres</h2>
         <p className="leading-8">Les arbres apporteront de l’ombre, une protection contre le vent, des fruits tombés, des insectes, une meilleure intégration paysagère et un sol plus vivant. Les fruitiers ne sont pas l’activité principale : ils soutiennent d’abord l’élevage avicole.</p>
-        <p className="leading-8">Si la production de fruits dépasse les besoins des volailles, les surplus pourront être vendus, mais le cœur du projet reste bien l’élevage de poules pondeuses et de volailles de chair.</p>
-        <p className="leading-8">La ferme est en préparation et ne sera pas ouverte avant le 01/05/2029.</p>
+        <p className="leading-8">Si la production de fruits dépasse les besoins des volailles, les surplus pourront être vendus, mais le cœur du projet reste bien l’élevage de poules pondeuses et de poules pondeuses.</p>
+        <p className="leading-8">La ferme est en préparation et ne sera pas ouverte avant le 05/2029.</p>
       </div>
     </PageShell>
   );

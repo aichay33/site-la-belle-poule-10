@@ -12,7 +12,7 @@ const needs = [
   "Un terrain agricole uniquement en Gironde, idéalement 4 hectares, plat, avec accès voiture et eau.",
   "Une mise en relation avec un propriétaire, une commune, un agriculteur ou un acteur local.",
   "Des conseils agricoles, fonciers, techniques, urbanisme, sécurité, eau ou administratifs.",
-  "Des contacts pour l’eau, les clôtures, les paddocks, le solaire, le noyau reproducteur chair, l’abattoir partenaire ou la vente directe.",
+  "Des contacts pour l’eau, les clôtures, les paddocks, le solaire, les poulaillers mobiles ou la vente directe.",
   "Du matériel de récupération utile : bois, tôles, cuves IBC, grillage, roues, portails ou mobilier extérieur.",
 ];
 
@@ -21,7 +21,7 @@ export default function CommentAiderPage() {
     <PageShell
       eyebrow="Comment aider"
       title="Chaque piste sérieuse peut aider La Belle Poule"
-      intro="Le projet est en préparation et l’ouverture est prévue le 01/05/2029. L’aide la plus importante aujourd’hui est la recherche d’un terrain agricole plat adapté en Gironde, mais les mises en relation, les conseils et le matériel peuvent aussi faire avancer l’installation."
+      intro="Le projet est en préparation et l’ouverture est prévue le 05/2029. L’aide la plus importante aujourd’hui est la recherche d’un terrain agricole plat adapté en Gironde, mais les mises en relation, les conseils et le matériel peuvent aussi faire avancer l’installation."
     >
       <div className="grid gap-10 text-text-mid">
         <section>

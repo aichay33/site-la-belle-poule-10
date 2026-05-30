@@ -1,11 +1,12 @@
+import Image from "next/image";
 import PageShell from "../../components/PageShell";
 import { buildPageMetadata } from "../../lib/seo";
 
 export const metadata = buildPageMetadata({
   title: "Système d’eau — La Belle Poule",
-  description: "Système d’eau de La Belle Poule : récupération de pluie, appoint atmosphérique, stockage, cuves, distribution gravitaire et gestion sans mare obligatoire.",
+  description: "Système d’eau de La Belle Poule : récupération de pluie, stockage, cuves, distribution gravitaire et gestion sans mare obligatoire.",
   path: "/systeme-eau",
-  keywords: ["récupération eau ferme", "eau de pluie volailles", "eau atmosphérique", "ferme agroforestière eau"],
+  keywords: ["récupération eau ferme", "eau de pluie volailles", "stockage d’eau", "ferme agroforestière eau"],
 });
 
 const blocks = [
@@ -13,7 +14,7 @@ const blocks = [
   ["Filtration", "Crépines, filtres feuilles, séparateur de premières eaux et préfiltration protègent les cuves et les abreuvoirs."],
   ["Stockage", "Cuves IBC et citernes sont prévues progressivement pour sécuriser l’eau pendant les périodes sèches."],
   ["Distribution", "Une cuve haute gravitaire alimente les abreuvoirs, le point d’accueil, le lavage mains et l’arrosage ciblé des jeunes plantations."],
-  ["Eau atmosphérique", "Filets à brouillard, panneaux à rosée ou surfaces de condensation sont prévus comme appoint expérimental, pas comme source principale."],
+  ["Stockage d’eau", "Les cuves, filtres et trop-pleins sont pensés pour sécuriser les usages agricoles et techniques."],
   ["Sans mare obligatoire", "Les trop-pleins sont dirigés vers des noues, haies et zones d’infiltration, sans création de mare si le PLU ne le permet pas."],
 ];
 
@@ -22,13 +23,16 @@ export default function SystemeEauPage() {
     <PageShell
       eyebrow="Système d’eau"
       title="Un système d’eau sobre pour préparer l’exploitation"
-      intro="Pendant les 3 années de préparation, La Belle Poule prévoit de construire un système d’eau performant avant l’ouverture : récupération de pluie, appoint atmosphérique, stockage, distribution et infiltration sans mare obligatoire."
+      intro="Pendant les 3 années de préparation, La Belle Poule prévoit de construire un système d’eau performant avant l’ouverture : récupération de pluie, stockage, distribution et infiltration sans mare obligatoire."
     >
       <div className="grid gap-10 text-text-mid">
+        <section className="overflow-hidden rounded-[2rem] border border-green-deep/10 bg-white shadow-[0_18px_60px_rgba(31,36,24,0.08)]">
+          <Image src="/images/systeme-eau-la-belle-poule.png" alt="Schéma du système d'eau de La Belle Poule avec récupération d'eau de pluie, filtration, stockage, sécurisation et distribution" width={1600} height={1000} className="h-auto w-full" />
+        </section>
         <section>
           <h2 className="font-display text-3xl text-green-deep">Objectif</h2>
           <p className="mt-4 leading-8">
-            Le système d’eau doit alimenter les volailles, les abreuvoirs des paddocks, les plantations utiles aux parcours, la zone d’accueil, le lavage des mains, les usages techniques et la zone d’habitation. L’eau de pluie est la base principale ; l’eau atmosphérique reste un appoint.
+            Le système d’eau doit alimenter les poules, les abreuvoirs des paddocks, les plantations utiles aux parcours, la zone d’accueil, le lavage des mains, les usages techniques et la zone d’habitation. L’eau de pluie, le stockage et la distribution sécurisée sont la base du dispositif.
           </p>
         </section>
 

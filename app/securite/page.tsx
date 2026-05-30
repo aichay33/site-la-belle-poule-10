@@ -16,18 +16,18 @@ const publicRules = [
 ];
 
 const farmRules = [
-  "Paddocks, poulaillers, abris de chair, bâtiment agricole, stockage aliment, batteries et cuves fermés au public.",
-  "Pondeuses et volailles de chair séparées : pas de mélange libre des lots.",
+  "Paddocks, poulaillers, bâtiment agricole, stockage aliment, batteries et cuves fermés au public.",
+  "Poules pondeuses organisées en paddocks : pas d’accès libre aux lots.",
   "Eau et électricité placées en zones techniques fermées ou protégées.",
-  "Chargement des volailles de chair et interventions agricoles prévus hors parcours visiteurs.",
+  "Chargement des poules pondeuses et interventions agricoles prévus hors parcours visiteurs.",
 ];
 
 export default function SecuritePage() {
   return (
     <PageShell
       eyebrow="Sécurité"
-      title="Une ferme lisible, séparée et rassurante"
-      intro="La Belle Poule est pensée pour rassurer les mairies, la Chambre d’agriculture, les assureurs et les visiteurs : parties communes accessibles, zones agricoles fermées, signalétique claire et ouverture prévue seulement le 01/05/2029."
+      title="Une ferme lisible, séparée et optimisée"
+      intro="La Belle Poule est pensée pour rassurer les mairies, la Chambre d’agriculture, les assureurs et les visiteurs : parties communes accessibles, zones agricoles fermées, signalétique claire et ouverture prévue seulement le 05/2029."
     >
       <div className="grid gap-10 text-text-mid">
         <section className="rounded-[2rem] bg-green-deep p-7 text-white md:p-9">
@@ -75,7 +75,7 @@ export default function SecuritePage() {
         <section className="rounded-[2rem] border border-green-deep/10 p-7 md:p-9">
           <h2 className="font-display text-3xl text-green-deep">Message pour les communes</h2>
           <p className="mt-4 leading-8">
-            Le site est conçu pour être clair : ouverture prévue le 01/05/2029, terrain agricole plat recherché, accès voiture et eau indispensables, parking, toilettes publiques, aire de pique-nique barbecue et aire de jeux en zone commune, zone agricole protégée, distributeur H24 isolé et montée progressive selon les autorisations et la demande.
+            Le site est conçu pour être clair : ouverture prévue le 05/2029, terrain agricole plat recherché, accès voiture et eau indispensables, parking, toilettes publiques, aire de pique-nique barbecue et aire de jeux en zone commune, zone agricole protégée, distributeur H24 isolé et montée progressive selon les autorisations et la demande.
           </p>
         </section>
       </div>

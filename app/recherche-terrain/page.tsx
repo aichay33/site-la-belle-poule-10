@@ -4,7 +4,7 @@ import { buildPageMetadata } from "../../lib/seo";
 
 export const metadata = buildPageMetadata({
   title: "Recherche terrain agricole en Gironde — La Belle Poule",
-  description: "La Belle Poule recherche un terrain agricole uniquement en Gironde : environ 4 hectares, terrain plat, accès voiture et eau indispensable, pour préparer une exploitation avicole plein air agroforestière avant l'ouverture prévue le 01/05/2029.",
+  description: "La Belle Poule recherche un terrain agricole uniquement en Gironde : environ 4 hectares, terrain plat, accès voiture et eau indispensable, pour préparer une exploitation avicole plein air agroforestière avant l'ouverture prévue le 05/2029.",
   path: "/recherche-terrain",
   keywords: ["recherche terrain agricole Gironde", "terrain plat 4 hectares Gironde", "terrain avicole Gironde", "exploitation avicole Gironde"],
 });
@@ -16,7 +16,7 @@ const criteria = [
   "Accès voiture obligatoire : installation, livraisons, secours, clients, abattoir partenaire et entretien.",
   "Eau indispensable : point d’eau, possibilité de stockage, toitures récupérables ou solution validable localement.",
   "Secteur : Gironde, priorité aux communes rurales ouvertes aux projets agricoles sobres.",
-  "Possibilité d’installer des paddocks plein air agroforestiers pour pondeuses et volailles de chair.",
+  "Possibilité d’installer des paddocks plein air agroforestiers pour pondeuses et poules pondeuses.",
   "Présence idéale d’un petit bois, d’un taillis ou de haies adultes pour le paysage, l’ombre et l’autonomie bois.",
   "Espace suffisant pour point de vente, distributeur H24, parking, toilettes publiques, aire de pique-nique barbecue, aire de jeux pour enfants et parties communes ouvertes 10h-19h.",
   "Possibilité de séparer clairement zone publique, zone agricole et zone privée.",
@@ -29,7 +29,7 @@ export default function RechercheTerrainPage() {
     <PageShell
       eyebrow="Recherche de terrain"
       title="Recherche terrain agricole plat en Gironde"
-      intro="La Belle Poule recherche un terrain agricole uniquement, idéalement 4 hectares, plat, avec accès voiture et eau. Le terrain servira à préparer pendant 3 ans la future exploitation avant l’ouverture prévue le 01/05/2029."
+      intro="La Belle Poule recherche un terrain agricole uniquement, idéalement 4 hectares, plat, avec accès voiture et eau. Le terrain servira à préparer pendant 3 ans la future exploitation avant l’ouverture prévue le 05/2029."
     >
       <div className="grid gap-10 text-text-mid">
         <section className="rounded-[2rem] bg-green-deep p-7 text-white md:p-9">
@@ -42,7 +42,7 @@ export default function RechercheTerrainPage() {
         <section>
           <h2 className="font-display text-3xl text-green-deep">Le terrain recherché</h2>
           <p className="mt-4 leading-8">
-            Le terrain idéal permettrait d’installer les paddocks, les accès, le bâtiment agricole, le point de vente, les distributeurs, le système d’eau, les panneaux solaires, la zone privée et les parties communes. L’objectif est de construire d’abord un outil agricole propre et cohérent, puis d’ouvrir le 01/05/2029 après 3 ans de préparation.
+            Le terrain idéal permettrait d’installer les paddocks, les accès, le bâtiment agricole, le point de vente, les distributeurs, le système d’eau, les panneaux solaires, la zone privée et les parties communes. L’objectif est de construire d’abord un outil agricole propre et cohérent, puis d’ouvrir le 05/2029 après 3 ans de préparation.
           </p>
           <ul className="mt-5 grid gap-3 md:grid-cols-2">
             {criteria.map((item) => (

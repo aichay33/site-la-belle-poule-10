@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://la-belle-poule-virid.vercel.app/sitemap.xml
+Sitemap: https://la-belle-poule-virid.vercel.app/sitemap-google.xml

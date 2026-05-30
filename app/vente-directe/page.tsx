@@ -3,9 +3,9 @@ import { buildPageMetadata } from "../../lib/seo";
 
 export const metadata = buildPageMetadata({
   title: "Vente directe — La Belle Poule",
-  description: "La Belle Poule prévoit la vente directe d’œufs et de volailles de chair après 3 ans de préparation, avec ouverture prévue le 01/05/2029, parties communes 10h-19h et distributeurs H24.",
+  description: "La Belle Poule prévoit la vente directe d’œufs et de poules pondeuses après 3 ans de préparation, avec ouverture prévue le 05/2029, parties communes 10h-19h et distributeurs H24.",
   path: "/vente-directe",
-  keywords: ["vente directe œufs", "volailles de chair Gironde", "œufs plein air vente directe", "ferme avicole vente directe"],
+  keywords: ["vente directe œufs", "poules pondeuses Gironde", "œufs plein air vente directe", "ferme avicole vente directe"],
 });
 
 export default function VenteDirectePage() {
@@ -13,18 +13,18 @@ export default function VenteDirectePage() {
     <PageShell
       eyebrow="Vente directe"
       title="Œufs et volailles vendus directement à la ferme"
-      intro="La vente directe est prévue seulement après les 3 années de préparation, avec ouverture visée le 01/05/2029. Le site sert aujourd’hui à présenter le projet, rechercher un terrain et préparer la future clientèle."
+      intro="La vente directe est prévue seulement après les 3 années de préparation, avec ouverture visée le 05/2029. Le site sert aujourd’hui à présenter le projet, rechercher un terrain et préparer la future clientèle."
     >
       <div className="grid gap-10 text-text-mid">
         <section>
           <h2 className="font-display text-3xl text-green-deep">À l’ouverture</h2>
           <p className="mt-4 leading-8">
-            La Belle Poule prévoit une ouverture avec 240 poules pondeuses et un premier atelier de volailles de chair basé sur un noyau reproducteur de poules et coqs. Les volailles de chair seront élevées en parcours séparé, avec montée progressive par reproduction naturelle sur la ferme.
+            La Belle Poule prévoit une ouverture avec 240 poules pondeuses et un premier atelier de poules pondeuses basé sur un montée progressive du cheptel. Les poules pondeuses seront élevées en parcours séparé, avec montée progressive par reproduction naturelle sur la ferme.
           </p>
         </section>
 
         <section className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-          {["Ouverture 01/05/2029", "240 pondeuses", "Chair par reproduction naturelle", "Objectif 1 000 + 1 000"].map((item) => (
+          {["Ouverture 05/2029", "240 pondeuses", "Atelier œufs uniquement", "Objectif 1 000 poules à terme"].map((item) => (
             <div key={item} className="rounded-[1.5rem] bg-cream-soft p-5 text-center font-bold text-green-deep">{item}</div>
           ))}
         </section>
@@ -39,7 +39,7 @@ export default function VenteDirectePage() {
         <section className="rounded-[2rem] bg-cream-soft p-7 md:p-9">
           <h2 className="font-display text-3xl text-green-deep">Ce qui reste protégé</h2>
           <p className="mt-4 leading-8">
-            Les paddocks, poulaillers, abris de volailles de chair, bâtiment agricole, réserve d’eau, batteries, stockage aliment et zone privée restent fermés au public. Les visiteurs observent la ferme depuis le parcours prévu, sans entrer dans les espaces de travail agricole.
+            Les paddocks, poulaillers, abris de poules pondeuses, bâtiment agricole, réserve d’eau, batteries, stockage aliment et zone privée restent fermés au public. Les visiteurs observent la ferme depuis le parcours prévu, sans entrer dans les espaces de travail agricole.
           </p>
         </section>
       </div>

@@ -14,7 +14,7 @@ export default function PolyculturePage() {
       <div className="grid gap-6 text-text-mid">
         <h2 className="font-display text-3xl text-green-deep">Une autonomie partielle</h2>
         <p className="leading-8">Les paddocks pourront accueillir des fruitiers, arbustes, mûriers, haies, bandes mellifères, céréales et plantes fourragères. Leur objectif : ombre, insectes, fruits tombés, couverture du sol et complément alimentaire pour les volailles.</p>
-        <p className="leading-8">Les surplus éventuels pourront être vendus, mais le métier principal reste l’aviculture : œufs et volailles de chair en plein air agroforestier.</p>
+        <p className="leading-8">Les surplus éventuels pourront être vendus, mais le métier principal reste l’aviculture : œufs plein air en plein air agroforestier.</p>
       </div>
     </PageShell>
   );

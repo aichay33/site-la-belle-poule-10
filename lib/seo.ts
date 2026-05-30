@@ -4,9 +4,9 @@ export const siteName = "La Belle Poule";
 export const siteUrl = "https://la-belle-poule-virid.vercel.app";
 export const siteLocale = "fr_FR";
 export const defaultOgImage = `${siteUrl}/images/hero-epure.png`;
-export const openingDate = "01/05/2029";
+export const openingDate = "05/2029";
 export const siteDescription =
-  "La Belle Poule est un projet d'exploitation avicole plein air agroforestière en préparation en Gironde : ouverture prévue le 01/05/2029, œufs, volailles de chair issues d'un noyau reproducteur, paddocks arborés et vente directe.";
+  "La Belle Poule est un projet d'atelier œufs plein air en Gironde : 240 poules pondeuses au démarrage, montée progressive, paddocks arborés et vente directe.";
 
 type PageMetadataInput = {
   title: string;

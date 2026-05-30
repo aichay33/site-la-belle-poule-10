@@ -19,7 +19,7 @@ export default function MentionsLegalesPage() {
         </section>
         <section>
           <h2 className="font-display text-3xl text-green-deep">Statut du projet</h2>
-          <p className="mt-3 leading-8">La ferme n’est pas encore ouverte au public ni en activité commerciale. Le site présente un projet de future exploitation avicole plein air agroforestière en préparation, avec une ouverture prévue le 01/05/2029.</p>
+          <p className="mt-3 leading-8">La ferme n’est pas encore ouverte au public ni en activité commerciale. Le site présente un projet de future exploitation avicole plein air agroforestière en préparation, avec une ouverture prévue le 05/2029.</p>
         </section>
         <section>
           <h2 className="font-display text-3xl text-green-deep">Formulaire de proposition de terrain</h2>
