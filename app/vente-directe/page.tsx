@@ -3,7 +3,7 @@ import { buildPageMetadata } from "../../lib/seo";
 
 export const metadata = buildPageMetadata({
   title: "Vente directe — La Belle Poule",
-  description: "La Belle Poule prévoit la vente directe d’œufs et de poules pondeuses après 3 ans de préparation, avec ouverture prévue le 05/2029, parties communes 10h-19h et distributeurs H24.",
+  description: "La Belle Poule prévoit la vente directe d’œufs plein air après 3 ans de préparation, avec ouverture prévue le 05/2029, parties communes 10h-19h et distributeurs H24.",
   path: "/vente-directe",
   keywords: ["vente directe œufs", "poules pondeuses Gironde", "œufs plein air vente directe", "ferme avicole vente directe"],
 });
@@ -12,14 +12,14 @@ export default function VenteDirectePage() {
   return (
     <PageShell
       eyebrow="Vente directe"
-      title="Œufs et volailles vendus directement à la ferme"
+      title="Œufs plein air vendus directement à la ferme"
       intro="La vente directe est prévue seulement après les 3 années de préparation, avec ouverture visée le 05/2029. Le site sert aujourd’hui à présenter le projet, rechercher un terrain et préparer la future clientèle."
     >
       <div className="grid gap-10 text-text-mid">
         <section>
           <h2 className="font-display text-3xl text-green-deep">À l’ouverture</h2>
           <p className="mt-4 leading-8">
-            La Belle Poule prévoit une ouverture avec 240 poules pondeuses et un premier atelier de poules pondeuses basé sur un montée progressive du cheptel. Les poules pondeuses seront élevées en parcours séparé, avec montée progressive par reproduction naturelle sur la ferme.
+            La Belle Poule prévoit une ouverture avec 240 poules pondeuses et un seul atelier au démarrage : les œufs plein air. La montée du cheptel sera progressive, uniquement si la demande locale, les autorisations et l’organisation suivent.
           </p>
         </section>
 

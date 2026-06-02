@@ -14,7 +14,7 @@ const guarantees = [
   "Recherche d’un terrain agricole uniquement, plat, avec accès voiture et eau, environ 4 hectares en Gironde.",
   "Préparation progressive des accès, de l’eau, des clôtures, des paddocks, de la sécurité et des bâtiments avant l’arrivée des animaux.",
   "Un seul atelier agricole au démarrage : les œufs plein air.",
-  "Poules pondeuses : achat d’un montée progressive du cheptel, puis reproduction naturelle sur la ferme.",
+  "Poules pondeuses : achat d’une montée progressive du cheptel, puis reproduction naturelle sur la ferme.",
   "Accueil public prévu uniquement dans les parties communes, de 10h à 19h : parking, toilettes publiques, aire de pique-nique barbecue, aire de jeux et parcours balisé ; zone agricole fermée au public.",
   "Distributeur d’œufs et boissons prévu en H24, sur une zone séparée et selon autorisations.",
   "Projet documenté : plan 3 ans, système d’eau, gestion des paddocks, sécurité, vente directe et dossier de présentation.",

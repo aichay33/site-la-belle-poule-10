@@ -11,6 +11,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://la-belle-poule-virid.vercel.app/actualites/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://la-belle-poule-virid.vercel.app/recherche-terrain/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

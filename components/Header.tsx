@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const links = [
   { href: "/projet", label: "Projet" },
+  { href: "/actualites", label: "Actualités" },
   { href: "/plan-3-ans", label: "Plan 3 ans" },
   { href: "/systeme-verger", label: "Paddocks" },
   { href: "/systeme-eau", label: "Eau" },

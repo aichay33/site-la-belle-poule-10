@@ -5,7 +5,7 @@ export const metadata = buildPageMetadata({
   title: "Sécurité et organisation — La Belle Poule",
   description: "Sécurité du projet La Belle Poule : parties communes 10h-19h, distributeur H24 séparé, zones agricoles fermées, signalétique, biosécurité, eau et électricité sécurisées.",
   path: "/securite",
-  keywords: ["sécurité ferme avicole", "accueil public ferme", "biosécurité volailles", "La Belle Poule"],
+  keywords: ["sécurité ferme avicole", "accueil public ferme", "biosécurité poules pondeuses", "La Belle Poule"],
 });
 
 const publicRules = [
@@ -68,7 +68,7 @@ export default function SecuritePage() {
           </article>
           <article className="rounded-[1.5rem] bg-cream-soft p-6">
             <h3 className="font-display text-2xl text-green-deep">Animaux</h3>
-            <p className="mt-3 leading-7">Les visiteurs peuvent observer les volailles, mais l’accès aux paddocks, abris, poulaillers et zones de nourrissage reste interdit au public.</p>
+            <p className="mt-3 leading-7">Les visiteurs peuvent observer les poules pondeuses depuis les zones prévues, mais l’accès aux paddocks, abris, poulaillers et zones de nourrissage reste interdit au public.</p>
           </article>
         </section>
 

@@ -30,7 +30,7 @@ export default function DossierProjetPage() {
           <div>
             <h2 className="font-display text-3xl text-green-deep">Résumé du projet</h2>
             <p className="mt-4 leading-8">
-              La Belle Poule est un projet de future exploitation avicole en Gironde. Le projet met en avant le plein air et l’agroforesterie : des paddocks arborés, des haies, des fruitiers utiles aux volailles, une gestion de l’eau, une vente directe et une organisation lisible pour les partenaires.
+              La Belle Poule est un projet de future ferme avicole en Gironde. Le projet met en avant l’atelier œufs plein air, les paddocks arborés, les haies, la gestion de l’eau, la vente directe et une organisation lisible pour les partenaires.
             </p>
             <p className="mt-4 leading-8">
               Le site ne présente pas une ferme déjà ouverte. La Belle Poule entre dans une phase de préparation avant ouverture prévue le 05/2029 : terrain, autorisations, bâtiments, eau, solaire, paddocks, sécurité, distributeurs et organisation sanitaire.

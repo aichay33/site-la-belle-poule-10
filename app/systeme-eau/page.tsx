@@ -6,7 +6,7 @@ export const metadata = buildPageMetadata({
   title: "Système d’eau — La Belle Poule",
   description: "Système d’eau de La Belle Poule : récupération de pluie, stockage, cuves, distribution gravitaire et gestion sans mare obligatoire.",
   path: "/systeme-eau",
-  keywords: ["récupération eau ferme", "eau de pluie volailles", "stockage d’eau", "ferme agroforestière eau"],
+  keywords: ["récupération eau ferme", "eau de pluie poules pondeuses", "stockage d’eau", "ferme agroforestière eau"],
 });
 
 const blocks = [

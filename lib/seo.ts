@@ -6,7 +6,7 @@ export const siteLocale = "fr_FR";
 export const defaultOgImage = `${siteUrl}/images/hero-epure.png`;
 export const openingDate = "05/2029";
 export const siteDescription =
-  "La Belle Poule est un projet d'atelier œufs plein air en Gironde : 240 poules pondeuses au démarrage, montée progressive, paddocks arborés et vente directe.";
+  "La Belle Poule est un projet de ferme avicole plein air en Gironde : atelier œufs, 240 poules pondeuses au démarrage, paddocks arborés, vente directe et ouverture prévue le 05/2029.";
 
 type PageMetadataInput = {
   title: string;
@@ -51,7 +51,7 @@ export function buildPageMetadata({ title, description, path, keywords = [] }: P
           url: defaultOgImage,
           width: 1024,
           height: 444,
-          alt: "La Belle Poule — future exploitation avicole plein air agroforestière en Gironde",
+          alt: "La Belle Poule — projet de ferme avicole plein air en Gironde",
         },
       ],
     },

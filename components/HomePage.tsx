@@ -5,7 +5,7 @@ import { LeafIcon, LocationIcon, PeopleIcon, SproutIcon } from "./Icons";
 const focusCards = [
   {
     href: "/projet",
-    title: "Une exploitation avicole en préparation",
+    title: "Une ferme d’œufs plein air en préparation",
     text: "La ferme n’est pas encore ouverte : l’ouverture est prévue le 05/2029, après 3 années de préparation.",
     icon: <LeafIcon className="h-7 w-7" />,
   },
@@ -18,7 +18,7 @@ const focusCards = [
   {
     href: "/systeme-verger",
     title: "Paddocks séparés",
-    text: "Pondeuses et poules pondeuses sont prévues dans des paddocks distincts, sans mélange libre des lots.",
+    text: "Les poules pondeuses sont prévues dans des paddocks distincts, avec rotation et zones agricoles fermées au public.",
     icon: <SproutIcon className="h-7 w-7" />,
   },
   {
@@ -47,11 +47,11 @@ export default function HomePage() {
   return (
     <main className="bg-white">
       <section className="relative overflow-hidden bg-white">
-        <h1 className="sr-only">La Belle Poule — Future exploitation avicole plein air agroforestière en préparation en Gironde</h1>
+        <h1 className="sr-only">La Belle Poule — projet de ferme avicole plein air en Gironde</h1>
         <div className="mx-auto max-w-[1800px]">
           <Image
             src="/images/recherche-terrain-cover.png"
-            alt="La Belle Poule, future exploitation avicole plein air agroforestière en préparation, recherche de terrain en Gironde"
+            alt="La Belle Poule, projet de ferme avicole plein air en Gironde, recherche de terrain agricole"
             width={1672}
             height={941}
             priority
@@ -74,7 +74,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-[1.05fr_0.95fr] md:items-center">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-terracotta">Ferme en préparation — ouverture prévue le 05/2029</p>
-            <h2 className="mt-4 font-display text-4xl leading-tight text-green-deep md:text-6xl">Une future ferme avicole plein air agroforestière</h2>
+            <h2 className="mt-4 font-display text-4xl leading-tight text-green-deep md:text-6xl">La Belle Poule, projet de ferme avicole plein air en Gironde</h2>
             <p className="mt-6 text-lg leading-8 text-text-mid">
               La Belle Poule est un projet d’exploitation avicole en Gironde, spécialisé dans un atelier principal : les œufs de poules pondeuses, élevés en plein air dans des parcours arborés.
             </p>
@@ -99,7 +99,7 @@ export default function HomePage() {
               <ul className="mt-4 space-y-3 leading-7 text-text-mid">
                 <li><strong className="text-green-deep">Ouverture prévue le 05/2029</strong> : le site est d’abord préparé proprement et sérieusement.</li>
                 <li><strong className="text-green-deep">240 poules pondeuses à l’ouverture</strong>, puis augmentation progressive selon la demande.</li>
-                <li><strong className="text-green-deep">Poules pondeuses</strong> : démarrage avec un montée progressive du cheptel, puis reproduction naturelle sur la ferme.</li>
+                <li><strong className="text-green-deep">Atelier œufs uniquement</strong> : démarrage avec 240 poules pondeuses, puis montée progressive selon la demande.</li>
                 <li><strong className="text-green-deep">Objectif long terme</strong> : jusqu’à 1 000 poules pondeuses à terme si les ventes, l’organisation et les autorisations suivent.</li>
                 <li><strong className="text-green-deep">Parties communes prévues</strong> : parking, toilettes publiques, aire de pique-nique barbecue, aire de jeux pour enfants et parcours balisé.</li>
               </ul>
@@ -136,7 +136,7 @@ export default function HomePage() {
               {[
                 "Projet avicole professionnel, pas une ferme de loisirs",
                 "Terrain agricole uniquement, plat, avec accès voiture et eau",
-                "Œufs plein air en ateliers séparés",
+                "Œufs plein air avec paddocks organisés",
                 "Paddocks distincts, pas de mélange libre des lots",
                 "Parties communes 10h-19h avec parking, toilettes publiques, pique-nique barbecue et aire de jeux",
                 "Distributeur œufs/boissons H24 prévu sur zone sécurisée",
@@ -182,7 +182,7 @@ export default function HomePage() {
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-terracotta">Porteuse du projet</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-green-deep md:text-5xl">Une vision portée par Aïcha</h2>
             <p className="mt-6 text-xl leading-9 text-text-dark">
-              “Moi aussi, j’ai un rêve : devenir éleveuse de volailles avec La Belle Poule.”
+              “Moi aussi, j’ai un rêve : devenir éleveuse de poules pondeuses avec La Belle Poule.”
             </p>
             <p className="mt-6 leading-8 text-text-mid">
               Je prépare La Belle Poule avec sérieux avant toute ouverture. Le site sert aujourd’hui à présenter une future exploitation avicole plein air agroforestière, à rechercher un terrain agricole adapté et à construire une communauté locale autour du projet.

@@ -2,12 +2,13 @@ import { buildPageMetadata } from "../lib/seo";
 import HomePage from "../components/HomePage";
 
 export const metadata = buildPageMetadata({
-  title: "La Belle Poule | Exploitation avicole plein air agroforestière en préparation",
+  title: "La Belle Poule — ferme avicole plein air en Gironde",
   description:
-    "La Belle Poule est un projet de future exploitation avicole en Gironde : ouverture prévue le 05/2029, terrain agricole plat recherché, 240 poules pondeuses, atelier œufs uniquement, paddocks plein air agroforestiers et vente directe.",
+    "La Belle Poule est un projet de ferme avicole plein air en Gironde : atelier œufs, 240 poules pondeuses au démarrage, paddocks arborés, vente directe et recherche de terrain agricole.",
   path: "/",
   keywords: [
-    "volailles plein air Gironde",
+    "œufs plein air Gironde",
+    "ferme avicole Gironde",
     "exploitation avicole agroforestière",
     "poules pondeuses plein air",
     "La Belle Poule",

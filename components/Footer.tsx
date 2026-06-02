@@ -36,6 +36,7 @@ export default function Footer() {
           <p className="text-xs font-bold uppercase tracking-[0.22em] text-terracotta">Navigation</p>
           <div className="mt-4 grid gap-2 text-sm text-text-mid">
             <Link href="/projet" className="hover:text-terracotta">Projet</Link>
+            <Link href="/actualites" className="hover:text-terracotta">Actualités</Link>
             <Link href="/recherche-terrain" className="hover:text-terracotta">Recherche terrain</Link>
             <Link href="/systeme-verger" className="hover:text-terracotta">Paddocks & rotation</Link>
             <Link href="/plan-3-ans" className="hover:text-terracotta">Plan de préparation</Link>
